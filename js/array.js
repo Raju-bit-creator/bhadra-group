@@ -1,5 +1,5 @@
-let students=[ "ram ", "shyam", "hari" ] //this is array
-console.log( students);
+// let students=[ "ram ", "shyam", "hari" ] //this is array
+// console.log( students);
 
 
 // let student=[
@@ -84,25 +84,32 @@ console.log( students);
     
 // })
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8]
- const filterNumber= numbers.filter(function (num) {
-    return num> 3
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+//  const filterNumber= numbers.filter(function (num) {
+//     return num> 3
     
- })
- console.log( filterNumber);
+//  })
+//  console.log( filterNumber);
 
- let numbers1 = [1, 2, 3, 4, 5, 6, 7, 8]
- const foundNumber= numbers1.find(function (num) {
-    return num>2
- })
- console.log(foundNumber);
+//  let numbers1 = [1, 2, 3, 4, 5, 6, 7, 8]
+//  const foundNumber= numbers1.find(function (num) {
+//     return num>2
+//  })
+//  console.log(foundNumber);
 
- let sentence ="there/is/elephant."
- const splitSentence= sentence.split("/")
- console.log(splitSentence);
+//  let sentence ="there/is/elephant."
+//  const splitSentence= sentence.split("/")
+//  console.log(splitSentence);
  
  
- 
+
+let button = document.getElementById("button")
+button.addEventListener("click", function () {
+let conf=  confirm("are you sure?")
+console.log(conf);
+
+})
+
 
 
 

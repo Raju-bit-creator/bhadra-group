@@ -12,3 +12,6 @@
 .hello{
     color: red;
 }
+.hero-img img{
+    width: 100%;
+}

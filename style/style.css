@@ -63,3 +63,20 @@ th {
     padding: 80px 0px;
     background: olive;
  }
+ .our-products{
+    background: #65ab5a;
+    padding: 80px 0px;
+ }
+ .title{
+    text-align: center;
+ }
+ .our-products .card{
+    margin-bottom: 25px;
+ }
+ .one{
+    background: url(../images/pineapple.jpg);
+    padding: 80px 0px ;
+ }
+ .one .card{
+    margin-bottom: 25px;
+ }

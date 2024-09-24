@@ -20,7 +20,7 @@
 }
 
 table {
-    width: 100%;
+    width: 100% !important;
     background: red;
     border-radius: 10px;
 
@@ -79,4 +79,37 @@ th {
  }
  .one .card{
     margin-bottom: 25px;
+ }
+ .footer-para{
+    font-family: 'Poppins';
+    font-size: 16;
+    font-weight: 600;
+ }
+ .footer ul li{
+    list-style:  none;
+ }
+ .footer .fa{
+    color: #fff;
+ }
+ @media only screen and (max-width: 1020px) {
+    .hello{
+        color: rgb(207, 241, 14);
+        font-size: 40px;
+    }
+ }
+
+ @media only screen and (max-width: 992px) {
+    .hello{
+        color: rgb(141, 197, 98);
+        font-size: 40px;
+    }
+ }
+ @media only screen and (max-width: 768px) {
+    .hello{
+        color: blue;
+        font-size: 40px;
+    }
+    td{
+        padding: 15px;
+    }
  }

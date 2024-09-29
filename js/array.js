@@ -19,28 +19,32 @@
 // console.log(students);
 // console.log(student);
 
-// let cart=[
-//     {
-//         price: 20,
-//         qty:3
-//     },
-//     {
-//         price: 30,
-//         qty:4
-//     },
-//     {
-//         price: 40,
-//         qty:5
-//     }
-// ]
-//  const total= cart.reduce((acc, curr)=>
-// acc + curr.price * curr.qty, 0
-//  )
-//  console.log("your total is: ", total);
-//  let value= cart.slice(0, 3).map(e=>{
-//     return e.qty
-//  })
-//  console.log("this is all prices:", value);
+let cart=[
+    {
+        price: 20,
+        qty:3
+    },
+    {
+        price: 30,
+        qty:4
+    },
+    {
+        price: 40,
+        qty:5
+    },
+    {
+        price: 40,
+        qty:5
+    }
+]
+ const total= cart.reduce((acc, curr)=>
+acc + curr.price * curr.qty, 0
+ )
+ console.log("your total is: ", total);
+ let value= cart.slice(0, 3).map(e=>{
+    return e.qty
+ })
+ console.log("this is all prices:", value);
 
 //  let courses= [
 //     {

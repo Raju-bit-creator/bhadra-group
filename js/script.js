@@ -1,8 +1,8 @@
-// alert("bhadra class . are you sure?")
+alert("bhadra class . are you sure?")
 
-// console.log("this is our first project");
-// console.log("this is agian our first project");
-// console.log("this is again again our first project");
+console.log("this is our first project");
+console.log("this is agian our first project");
+console.log("this is again again our first project");
 
 // let a = prompt("Enter your name")
 // console.log("this is your name:" + a);

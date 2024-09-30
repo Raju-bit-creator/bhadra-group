@@ -27,15 +27,15 @@
 //     console.log(conf);
 
 // })
-let obja={
-a:5,
-b:10,
-func: function myfunc(num) {
-    console.log("this is your number", num);
+// let obja={
+// a:5,
+// b:10,
+// func: function myfunc(num) {
+//     console.log("this is your number", num);
     
-} 
+// } 
 
-}
+// }
 //  let students ={
 //     name: "ramesh",
 //     roll: 20
@@ -44,4 +44,11 @@ func: function myfunc(num) {
 // console.log(students);
 
 
+let num = 5;
+let str = "5";
 
+// Strict equality
+console.log(num === str);  // Output: false (different types: number vs string)
+
+// Loose equality
+console.log(num == str);   // Output: true (JavaScript coerces the string to a number)

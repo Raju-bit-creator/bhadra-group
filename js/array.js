@@ -1,4 +1,4 @@
-// let students=[ "ram ", "shyam", "hari" ] //this is array
+// let students=[ "ram ", "shyam"] //this is array
 // console.log( students);
 
 
@@ -16,35 +16,35 @@
 //         roll: 5
 //     }
 // ]
-// console.log(students);
+
 // console.log(student);
 
-let cart=[
-    {
-        price: 20,
-        qty:3
-    },
-    {
-        price: 30,
-        qty:4
-    },
-    {
-        price: 40,
-        qty:5
-    },
-    {
-        price: 40,
-        qty:5
-    }
-]
- const total= cart.reduce((acc, curr)=>
-acc + curr.price * curr.qty, 0
- )
- console.log("your total is: ", total);
- let value= cart.slice(0, 3).map(e=>{
-    return e.qty
- })
- console.log("this is all prices:", value);
+// let cart=[
+//     {
+//         price: 20,
+//         qty:3
+//     },
+//     {
+//         price: 30,
+//         qty:4
+//     },
+//     {
+//         price: 40,
+//         qty:5
+//     },
+//     {
+//         price: 40,
+//         qty:5
+//     }
+// ]
+//  const total= cart.reduce((acc, curr)=>
+// acc + curr.price * curr.qty, 0
+//  )
+//  console.log("your total is: ", total);
+//  let value= cart.slice(0, 2).map(e=>{
+//     return e.qty
+//  })
+//  console.log("this is all prices:", value);
 
 //  let courses= [
 //     {
@@ -70,13 +70,21 @@ acc + curr.price * curr.qty, 0
 //     const element = courses[index];
 //     if (element.status==true) {
 //         completed.push(element)
-//         console.log(completed);
+      
         
 //     } else {
+//         inComplete.push(element)
+       
         
 //     }
+   
+    
     
 //    }
+//    console.log(completed);
+//    console.log(inComplete);
+   
+   
 
 // let  fruits =["apple", "mango", "orange", "grapes"]
 // //  const popedFruit = fruits.pop()
@@ -104,16 +112,41 @@ acc + curr.price * curr.qty, 0
 //  let sentence ="there/is/elephant."
 //  const splitSentence= sentence.split("/")
 //  console.log(splitSentence);
- 
- 
 
-let button = document.getElementById("button")
-button.addEventListener("click", function () {
-let conf=  confirm("are you sure?")
-console.log(conf);
 
-})
 
+//  topic-operators
+// arithmetic operator / conditional operator /logical operator
+// + , -, /, %, * 
+// <, > ,<=, >=, == ,===
+// and (&&), or ( || ) Notification(!)
+
+// let a = 5
+// let b = "5"
+// console.log(a==b); //true loose comparision
+
+// console.log(a===b);// false strict comarision
+
+// let bool = true;
+// console.log(a === bool); // Output: false (5 is a number, true is a boolean)
+
+// let exactNum = 5;
+// console.log(a === exactNum); // Output: true (same value and type)
+
+// console.log(true === 1);     // Output: false (true is a boolean, 1 is a number)
+// console.log(true == 1);      // Output: true (true is coerced to 1)
+
+// console.log(null === undefined);  // Output: false (null and undefined are different types)
+// console.log(null == undefined);   // Output: true (loose equality treats them as equivalent)
+
+// console.log('' === false);    // Output: false (empty string and boolean are different types)
+// console.log(0 == false);     // Output: true (loose equality coerces '' to false)
+
+//assignment : 1, css hover and span use case 2, position , z-index, 3 before and after 
+
+let fruits= ["apple", "mango", "pinapple"]
+let breakFast= [...fruits , "bread"]
+console.log(breakFast);
 
 
 

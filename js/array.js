@@ -144,9 +144,14 @@
 
 //assignment : 1, css hover and span use case 2, position , z-index, 3 before and after 
 
-let fruits= ["apple", "mango", "pinapple"]
-let breakFast= [...fruits , "bread"]
-console.log(breakFast);
+// let fruits= ["apple", "mango", "pinapple"]
+// let breakFast= [...fruits , "bread"]
+// console.log(breakFast);
+
+// let a = [1, 2, 3]; console.log(typeof a);
+let x = 5;
+let y = x++;
+console.log(x, y);
 
 
 

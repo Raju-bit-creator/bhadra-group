@@ -149,9 +149,87 @@
 // console.log(breakFast);
 
 // let a = [1, 2, 3]; console.log(typeof a);
-let x = 5;
-let y = x++;
-console.log(x, y);
+// let x = 5;
+// let y = x++;
+// console.log(x, y);
+
+// let num = [1, 2, 3, 4]
+// let newNum= num.push(5)
+// console.log(newNum);
+
+// let popNum =num.pop()
+// console.log(popNum);
+// console.log(num);
+
+// let str= "1 2 3 4 5"
+// let newSrt= str.split(' ')
+// console.log(str);
+  
+ let countries =[
+    {
+        countryName: "Nepal",
+        code :"np"
+    },
+    {
+        countryName: "India",
+        code : "in"
+    },
+    {
+        countryName: "qatar",
+        code :"qr"
+    },
+    {
+        countryName: "australia",
+        code :"au"
+    }
+ ]
+
+  function findCountryCode(countryName) {
+    for (let index = 0; index < countries.length; index++) {
+        let element = countries[index]
+        countryName = countryName.toLowerCase().trim()
+        if (element.countryName.toLowerCase() == countryName) {
+            console.log(`country code for ${countryName} `, element.code)
+            return
+        }
+    }
+    
+ }
+ let num = [1, 2, 3, 4]
+
+ for (let index = 0; index < num.length; index++) {
+    const element = num[index];
+    console.log(element);
+    
+    
+ }
+// assignment  oct 01 visit theme forest for category design
+ const students =[
+    {
+        name : "Ram",
+        paidStatus: true
+    },
+    {
+        name : "Shyam",
+        paidStatus: false
+    },
+    {
+        name : "Hari",
+        paidStatus: true
+    },
+    {
+        name : "Michelle",
+        paidStatus: false
+    }
+ ]
+
+
+
+
+
+
+
+ 
 
 
 

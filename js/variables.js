@@ -52,3 +52,5 @@ console.log(num === str);  // Output: false (different types: number vs string)
 
 // Loose equality
 console.log(num == str);   // Output: true (JavaScript coerces the string to a number)
+
+

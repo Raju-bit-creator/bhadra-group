@@ -165,63 +165,166 @@
 // let newSrt= str.split(' ')
 // console.log(str);
   
- let countries =[
-    {
-        countryName: "Nepal",
-        code :"np"
-    },
-    {
-        countryName: "India",
-        code : "in"
-    },
-    {
-        countryName: "qatar",
-        code :"qr"
-    },
-    {
-        countryName: "australia",
-        code :"au"
-    }
- ]
+//  let countries =[
+//     {
+//         name: "Nepal",
+//         code :"np"
+//     },
+//     {
+//         name: "India",
+//         code : "in"
+//     },
+//     {
+//         name: "qatar",
+//         code :"qr"
+//     },
+//     {
+//         name: "australia",
+//         code :"au"
+//     }
+//  ]
 
-  function findCountryCode(countryName) {
-    for (let index = 0; index < countries.length; index++) {
-        let element = countries[index]
-        countryName = countryName.toLowerCase().trim()
-        if (element.countryName.toLowerCase() == countryName) {
-            console.log(`country code for ${countryName} `, element.code)
-            return
-        }
-    }
+//   function findCountryCode(countryName) {
+//     for (let index = 0; index < countries.length; index++) {
+//         let element = countries[index]
+//         countryName = countryName.toLowerCase().trim()
+//         if (element.name.toLowerCase() == countryName) {
+//             console.log(`country code for ${countryName} `, element.code)
+//             return
+//         }
+//     }
     
- }
- let num = [1, 2, 3, 4]
+//  }
+//  let num = [1, 2, 3, 4]
 
- for (let index = 0; index < num.length; index++) {
-    const element = num[index];
-    console.log(element);
+//  for (let index = 0; index < num.length; index++) {
+//     const element = num[index];
+//     console.log(element);
     
     
- }
+//  }
 // assignment  oct 01 visit theme forest for category design
- const students =[
-    {
-        name : "Ram",
-        paidStatus: true
-    },
-    {
-        name : "Shyam",
-        paidStatus: false
-    },
-    {
-        name : "Hari",
-        paidStatus: true
-    },
-    {
-        name : "Michelle",
-        paidStatus: false
-    }
- ]
+//  const students =[
+//     {
+//         name : "Ram",
+//         paidStatus: true
+//     },
+//     {
+//         name : "Shyam",
+//         paidStatus: false
+//     },
+//     {
+//         name : "Hari",
+//         paidStatus: true
+//     },
+//     {
+//         name : "Michelle",
+//         paidStatus: false
+//     }
+//  ]
+
+//   students.forEach(student=>{
+//     if (student.paidStatus==true) {
+//         console.log(`${student.name} can give exam`);
+        
+//     } else {
+//         console.log(`${student.name} cannot give exam`);
+        
+//     }
+//   })
+
+//   const student1 =[
+//     {
+//         name : "Ram",
+//         paidStatus: true,
+//         hasScholarship: false
+//     },
+//     {
+//         name : "Shyam",
+//         paidStatus: false,
+//         hasScholarship: false
+//     },
+//     {
+//         name : "Hari",
+//         paidStatus: true,
+//         hasScholarship: false
+//     },
+//     {
+//         name : "Michelle",
+//         paidStatus: false,
+//         hasScholarship: true
+//     }
+//  ]
+
+//   student1.forEach(student=>{
+//     if (student.paidStatus || student.hasScholarship ) {
+//         console.log(`${student.name} can give exam`);
+        
+//     } else {
+//         console.log(`${student.name} cannot give exam`);
+        
+//     }
+//   })
+
+// const data=[
+//     {
+//         name :"orange",
+//         scientificName : "xyz",
+//         prices: [
+//             {
+//                 country:"nepal",
+//                 price: 100
+//             },
+//             {
+//                 country:"us",
+//                 price: 2
+//             },
+//             {
+//                 country:"canada",
+//                 price: 3
+//             }
+//         ]
+//     },
+//     {
+//         name :"grapes",
+//         scientificName : "xyz",
+//         prices: [
+//             {
+//                 country:"nepal",
+//                 price: 100
+//             },
+//             {
+//                 country:"us",
+//                 price: 2
+//             },
+//             {
+//                 country:"canada",
+//                 price: 3
+//             }
+//         ]
+//     }
+// ]
+
+// // data[1].prices.forEach((p)=>{
+// //     console.log(` price of orange is ${p.price} in ${p.country}`);
+    
+// // })
+// data[1].prices.map((element)=>{
+//     console.log(` price of orange is ${element.price} in ${element.country}`);
+    
+// })
+
+let willRain= true
+let probablity = false
+let scorchinSun = false
+ if (willRain  ||  scorchinSun) {
+    console.log("take umbrella");
+    
+ } else {
+    console.log("no need to take umbrella");
+    
+ }
+
 
 
 

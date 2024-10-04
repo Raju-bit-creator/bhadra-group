@@ -317,7 +317,7 @@
 let willRain= true
 let probablity = false
 let scorchinSun = false
- if (willRain  ||  scorchinSun) {
+ if (willRain && scorchinSun) {
     console.log("take umbrella");
     
  } else {

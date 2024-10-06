@@ -47,14 +47,14 @@ let scorchinSun = false
  let cartItems =[
     {
         name:"ramesh",
-        prducts: [
+        products: [
             {title: "watch", price: 1000},
             {title: "earpod", price: 500}
         ]
     },
     {
         name:"dinesh",
-        prducts: [
+        products: [
             {title: "watch", price: 1000},
             {title: "earpod", price: 1000},
             {title : "keyboard", price: 1500}
@@ -62,7 +62,7 @@ let scorchinSun = false
     },
     {
         name:"jenny",
-        prducts: [
+        products: [
             {title: "ear-ring", price: 1000},
         
         ]
@@ -72,6 +72,13 @@ let scorchinSun = false
 //  ramesh has ordered of rs 1500
 //  dinesh has ordered of rs 3500
 //  jenny has ordered of rs 1000
+
+cartItems.forEach(customer=>{
+    let total= customer.products.reduce((acc ,product)=> acc+ product.price, 0)
+    console.log(`${customer.name} has ordered of rs ${total}` );
+    
+})
+
  
  
 

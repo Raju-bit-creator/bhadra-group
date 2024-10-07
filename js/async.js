@@ -40,6 +40,7 @@
     
 // }
 // promise=> resolve and reject
+
 let promise = new Promise((resolve, reject)=>{
     setTimeout(() => {
         // reject("internal server error")

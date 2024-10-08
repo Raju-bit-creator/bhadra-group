@@ -25,20 +25,20 @@
 // }
 // console.log("im bottm text");
 
-// setTimeout(() => {
-//     console.log("do something");
+setTimeout(() => {
+    console.log("do something");
     
-// }, 1000);
-// try {
-//     let firstName = "ram"
-//     let lastName= "magar"
-//     let fullName =firstName + lastName
-//     console.log(fullName);
+}, 1000);
+try {
+    let firstName = "ram"
+    let lastName= "magar"
+    let fullName =firstName + lastName
+    console.log(fullName);
     
-// } catch (error) {
-//     console.log(err.message);
+} catch (error) {
+    console.log(err.message);
     
-// }
+}
 // promise=> resolve and reject
 
 let promise = new Promise((resolve, reject)=>{

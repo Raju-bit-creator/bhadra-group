@@ -19,13 +19,15 @@ let scorchinSun = false
     console.log('you might to take umbrella');
     
  }
- 
+
 
  else {
     console.log("no need to take umbrella");
     
  }
 
+
+ //this is for main branch
  // ternary operater aka shortcut of if else conditions
  const age = 25
  const canVote =(age>= 18)? ("you  can vote"): "you cannot vote this time"

@@ -26,7 +26,7 @@ let scorchinSun = false
     
  }
 
-
+    
  //this is for main branch
  // ternary operater aka shortcut of if else conditions
  const age = 25

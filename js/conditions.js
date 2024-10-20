@@ -19,6 +19,7 @@ let scorchinSun = false
     console.log('you might to take umbrella');
     
  }
+ 
 
  else {
     console.log("no need to take umbrella");

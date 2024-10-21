@@ -64,7 +64,15 @@ let scorchinSun = false
         ]
     },
     {
-        name:"jenny",
+        name:"Ram",
+        products: [
+            {title: "watch", price: 1000},
+            {title: "earpod", price: 1000},
+            {title : "keyboard", price: 1500}
+        ]
+    },
+    {
+        name:"",
         products: [
             {title: "ear-ring", price: 1000},
         
